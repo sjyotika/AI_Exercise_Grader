@@ -1,4 +1,5 @@
 🏋️ AI Exercise Grader – Real-Time Posture & Form Evaluation
+
 📌 Overview
 
 This project is an AI-based virtual fitness trainer that uses computer vision and pose estimation to analyze exercise posture in real time and provide instant feedback on form quality.
@@ -100,7 +101,7 @@ No deep learning training is required — the intelligence lies in pose interpre
 
 ▶️ How to Run the Project
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/ai-exercise-grader.git
+git clone https://github.com/sjyotika/ai-exercise-grader.git
 cd ai-exercise-grader
 
 2️⃣ Install Dependencies
