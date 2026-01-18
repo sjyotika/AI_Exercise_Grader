@@ -105,7 +105,7 @@ No deep learning training is required — the intelligence lies in pose interpre
 
 git clone https://github.com/sjyotika/AI_Exercise_Grader.git
 
-cd ai-exercise-grader
+cd AI_Exercise_Grader
 
 2️⃣ Install Dependencies
 
