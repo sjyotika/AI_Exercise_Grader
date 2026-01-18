@@ -100,14 +100,19 @@ Feedback is displayed based on posture correctness
 No deep learning training is required — the intelligence lies in pose interpretation and rule-based reasoning.
 
 ▶️ How to Run the Project
+
 1️⃣ Clone the Repository
-git clone https://github.com/sjyotika/ai-exercise-grader.git
+
+git clone https://github.com/sjyotika/AI_Exercise_Grader.git
+
 cd ai-exercise-grader
 
 2️⃣ Install Dependencies
+
 pip install -r requirements.txt
 
 3️⃣ Run the Application
+
 python main.py
 
 
@@ -162,4 +167,5 @@ This project demonstrates how computer vision and AI can be used responsibly and
 🙋 Author
 
 Jyotika Satav
+
 (AI / Computer Vision Enthusiast)
