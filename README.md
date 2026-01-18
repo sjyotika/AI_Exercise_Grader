@@ -1,38 +1,46 @@
-🏋️ AI Exercise Grader – Real-Time Posture & Form Evaluation
+# 🏋️ AI Exercise Grader – Real-Time Posture & Form Evaluation
 
-📌 Overview
+---
+
+## 📌 Overview
 
 This project is an AI-based virtual fitness trainer that uses computer vision and pose estimation to analyze exercise posture in real time and provide instant feedback on form quality.
 
 Unlike basic fitness trackers that only count repetitions, this system focuses on exercise correctness, helping users reduce injury risk and improve workout effectiveness while exercising at home.
 
-🎯 Problem Statement
+---
+
+## 🎯 Problem Statement
 
 Many people exercise without professional supervision, leading to:
 
-Incorrect posture
+- Incorrect posture
 
-Ineffective workouts
+- Ineffective workouts
 
-High risk of injury
+- High risk of injury
 
-Most online workout videos and basic fitness apps do not provide real-time corrective feedback, which is critical for safe training.
+- Most online workout videos and basic fitness apps do not provide real-time corrective feedback, which is critical for safe training.
 
-💡 Proposed Solution
+---
+
+## 💡 Proposed Solution
 
 This system acts as a virtual personal trainer by:
 
-Detecting human body pose using a webcam
+- Detecting human body pose using a webcam
 
-Calculating joint angles (knees, hips, etc.)
+- Calculating joint angles (knees, hips, etc.)
 
-Applying biomechanical rules to evaluate posture
+- Applying biomechanical rules to evaluate posture
 
-Providing real-time visual (and optional voice) feedback
+- Providing real-time visual (and optional voice) feedback
 
 The solution is lightweight, explainable, and runs entirely on CPU, making it accessible on standard laptops.
 
-⭐ Key Features
+---
+
+## ⭐ Key Features
 
 ✅ Real-time pose detection using webcam
 
@@ -48,33 +56,39 @@ The solution is lightweight, explainable, and runs entirely on CPU, making it ac
 
 ✅ Runs on CPU (no GPU needed)
 
-🆕 Innovation & Uniqueness
+---
 
-Compared to existing exercise counters, this project adds:
+## 🆕 Innovation & Uniqueness
 
-Form quality grading, not just repetition counting
+- Compared to existing exercise counters, this project adds:
 
-Explainable feedback based on joint angles
+- Form quality grading, not just repetition counting
 
-Rule-based posture correction similar to real trainers
+- Explainable feedback based on joint angles
 
-Beginner-friendly, transparent logic instead of black-box models
+- Rule-based posture correction similar to real trainers
+
+- Beginner-friendly, transparent logic instead of black-box models
 
 This transforms the system from a simple tracker into an intelligent coaching assistant.
 
-🛠️ Tech Stack
+---
 
-Programming Language: Python
+## 🛠️ Tech Stack
 
-Pose Estimation: MediaPipe Pose
+- Programming Language: Python
 
-Video Processing: OpenCV
+- Pose Estimation: MediaPipe Pose
 
-Numerical Computation: NumPy
+- Video Processing: OpenCV
 
-Voice Feedback (Optional): pyttsx3
+- Numerical Computation: NumPy
 
-🧠 System Workflow
+- Voice Feedback (Optional): pyttsx3
+
+---
+
+## 🧠 System Workflow
 Webcam Input
    ↓
 Pose Estimation (MediaPipe)
@@ -85,7 +99,9 @@ Rule-Based Exercise Evaluation
    ↓
 Real-Time Feedback (Text / Voice)
 
-🧪 How It Works (Conceptually)
+---
+
+### 🧪 How It Works (Conceptually)
 
 Webcam captures live video
 
@@ -99,26 +115,35 @@ Feedback is displayed based on posture correctness
 
 No deep learning training is required — the intelligence lies in pose interpretation and rule-based reasoning.
 
-▶️ How to Run the Project
+---
 
-1️⃣ Clone the Repository
+## ▶️ How to Run the Project
 
+### 1️⃣ Clone the Repository
+
+``` bash
 git clone https://github.com/sjyotika/AI_Exercise_Grader.git
 
 cd AI_Exercise_Grader
 
-2️⃣ Install Dependencies
+```
 
+### 2️⃣ Install Dependencies
+
+``` bash
 pip install -r requirements.txt
+```
 
-3️⃣ Run the Application
-
+### 3️⃣ Run the Application
+``` bash
 python main.py
-
+```
 
 📷 Make sure your webcam is enabled.
 
-🧪 Testing & Validation
+---
+
+## 🧪 Testing & Validation
 
 The system was tested using:
 
@@ -130,41 +155,51 @@ Incorrect back alignment
 
 Feedback changes dynamically based on posture, demonstrating real-time responsiveness and robustness.
 
-⚠️ Limitations
+---
 
-Currently supports a limited set of exercises
+## ⚠️ Limitations
 
-Performance depends on camera angle and lighting
+- Currently supports a limited set of exercises
 
-Not a replacement for professional medical advice
+- Performance depends on camera angle and lighting
 
-🚀 Future Improvements
+- Not a replacement for professional medical advice
 
-Support for more exercises (push-ups, lunges, planks)
+---
 
-Personalized calibration for different body types
+## 🚀 Future Improvements
 
-Exercise scoring & progress tracking
+- Support for more exercises (push-ups, lunges, planks)
 
-Mobile application integration
+- Personalized calibration for different body types
 
-Improved fatigue detection
+- Exercise scoring & progress tracking
 
-🌍 Real-World Impact
+- Mobile application integration
 
-Enables safe home workouts
+- Improved fatigue detection
 
-Reduces injury risk
+---
 
-Provides affordable access to guided fitness
+## 🌍 Real-World Impact
 
-Useful in fitness coaching, rehabilitation, and tele-health
+- Enables safe home workouts
 
-📌 Conclusion
+- Reduces injury risk
+
+- Provides affordable access to guided fitness
+
+- Useful in fitness coaching, rehabilitation, and tele-health
+
+---
+
+## 📌 Conclusion
 
 This project demonstrates how computer vision and AI can be used responsibly and practically to solve real-world health and fitness problems. It highlights the power of explainable, lightweight AI systems that prioritize usability and impact.
 
-🙋 Author
+---
+
+#### 🙋 Author
 
 Jyotika Satav
 
