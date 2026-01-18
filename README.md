@@ -91,19 +91,19 @@ This transforms the system from a simple tracker into an intelligent coaching as
 ## 🧠 System Workflow
 Webcam Input
 
-      ↓
+↓
    
 Pose Estimation (MediaPipe)
 
-      ↓
+↓
    
 Joint Angle Calculation
 
-      ↓
+↓
    
 Rule-Based Exercise Evaluation
 
-      ↓
+↓
    
 Real-Time Feedback (Text / Voice)
 
